@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family:poppins ;
+}
+body{
+    width: 100%;
+    background-color: #E8EFF6;
+}
+
+.navbaritems{
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*//*if i add this it will be placed on the right 
+    and i need it on the left */
+    padding: 0 6.25rem;
+    background-color:#E8EFF6;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.25);
+    height: 5.3rem;
+    width: auto;
+    
+    
+    
+}
+
+
+.logo{
+    height: 80px;
+    width: 74px;
+    top: 3px;
+    left:80px;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 3.75rem;
+     /*or use this */
+    /*display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 20px;*/
+
+  position: relative;
+  left: 10rem;
+}
+
+.nav-links{
+    text-decoration: none; 
+    color: #062144;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.5px;
+    transition: all .6s;
+    padding :10px 0;
+    
+}
+
+.nav-links:hover{
+    transform: translateY(-5px);
+    
+
+    
+}
+.nav-links:after{
+    
+    content: '';
+    position: absolute;
+    background-color: #062144;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: all .3s;
+
+}
+
+.nav-links:hover::after{
+    width: 100%;
+    opacity: 1;
+}

@@ -1,0 +1,97 @@
+body{
+  background-color: #E8EFF6; 
+  
+}
+.up{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.up-text{
+  display: grid;
+  grid-gap: 3rem;
+  position: relative;
+  top: 1.5rem;   
+  left: 7rem;
+}
+
+.titlee{
+  font-size: 4rem;
+  font-weight: 700;
+  position: relative;
+ 
+  color: #062144;
+
+}
+
+.sub-title{
+  position: relative;
+  
+  color: #062144;
+  font-size: 3rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+span{
+  color: #5271FF;
+}
+
+.student{
+  height: 38rem;
+  width: 40rem;
+  position: relative;
+  left:-3rem;
+}
+
+.description{
+  color: #000000;
+  width: 45rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.line{
+  background-color: #37C6FF;
+  height: 2px;
+  width: 85rem;
+  position: relative;
+  left: 15rem;
+  top: 3.5rem;
+}
+
+.startbutton{
+    align-items: center;
+    background-color: #5271FF;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    width: 13.2rem;
+    height: 3.3rem;
+    justify-content: center;
+  
+   
+    transition: all 250ms;
+    cursor: pointer;
+}
+
+.startbutton:hover,
+.startbutton:focus {
+  background-color: #5776ff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.startbutton:hover {
+  transform: translateY(-2px);
+}
+
+.startbutton:active {
+  background-color: #3e58cf;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
